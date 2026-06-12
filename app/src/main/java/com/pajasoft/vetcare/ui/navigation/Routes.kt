@@ -1,8 +1,6 @@
-package com.pajasoft.vetcare1.ui.navigation
+package com.pajasoft.vetcare.ui.navigation
 
 import android.net.Uri
-
-
 
 object Routes {
     const val LOGIN = "login"

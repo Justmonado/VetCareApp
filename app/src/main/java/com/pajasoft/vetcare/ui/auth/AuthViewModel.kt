@@ -1,10 +1,10 @@
-package com.pajasoft.vetcare1.ui.auth
+package com.pajasoft.vetcare.ui.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pajasoft.vetcare1.Data.models.LoginRequest
-import com.pajasoft.vetcare1.Data.models.RegisterRequest
-import com.pajasoft.vetcare1.Data.repository.VetRepository
+import com.pajasoft.vetcare.Data.models.LoginRequest
+import com.pajasoft.vetcare.Data.models.RegisterRequest
+import com.pajasoft.vetcare.Data.repository.VetRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

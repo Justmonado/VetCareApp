@@ -1,4 +1,4 @@
-package com.pajasoft.vetcare1.ui.auth
+package com.pajasoft.vetcare.ui.auth
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -34,10 +34,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.pajasoft.vetcare1.Data.models.RegisterRequest
-import com.pajasoft.vetcare1.VetViewModelFactory
-import com.pajasoft.vetcare1.ui.components.PrimaryButton
-import com.pajasoft.vetcare1.ui.components.VetTextField
+import com.pajasoft.vetcare.Data.models.RegisterRequest
+import com.pajasoft.vetcare.VetViewModelFactory
+import com.pajasoft.vetcare.ui.components.PrimaryButton
+import com.pajasoft.vetcare.ui.components.VetTextField
 import java.util.Calendar
 
 @OptIn(ExperimentalMaterial3Api::class)

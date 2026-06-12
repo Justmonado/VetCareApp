@@ -1,4 +1,4 @@
-package com.pajasoft.vetcare1.ui.sucursales
+package com.pajasoft.vetcare.ui.sucursales
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -38,9 +38,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.pajasoft.vetcare1.VetViewModelFactory
-import com.pajasoft.vetcare1.ui.components.ErrorBox
-import com.pajasoft.vetcare1.ui.components.LoadingBox
+import com.pajasoft.vetcare.VetViewModelFactory
+import com.pajasoft.vetcare.ui.components.ErrorBox
+import com.pajasoft.vetcare.ui.components.LoadingBox
 
 
 @Composable

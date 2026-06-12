@@ -1,4 +1,4 @@
-package com.pajasoft.vetcare1.ui.components
+package com.pajasoft.vetcare.ui.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column

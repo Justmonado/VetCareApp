@@ -1,10 +1,10 @@
-package com.pajasoft.vetcare1.ui.sucursales
+package com.pajasoft.vetcare.ui.sucursales
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.pajasoft.vetcare1.Data.models.Servicio
-import com.pajasoft.vetcare1.Data.models.Sucursal
-import com.pajasoft.vetcare1.Data.repository.VetRepository
+import com.pajasoft.vetcare.Data.models.Servicio
+import com.pajasoft.vetcare.Data.models.Sucursal
+import com.pajasoft.vetcare.Data.repository.VetRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

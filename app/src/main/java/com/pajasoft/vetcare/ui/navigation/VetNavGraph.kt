@@ -1,4 +1,4 @@
-package com.pajasoft.vetcare1.ui.navigation
+package com.pajasoft.vetcare.ui.navigation
 
 import android.net.Uri
 import androidx.compose.runtime.Composable
@@ -7,15 +7,15 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.pajasoft.vetcare1.ui.adopcion.AdopcionDetailScreen
-import com.pajasoft.vetcare1.ui.adopcion.AdopcionListScreen
-import com.pajasoft.vetcare1.ui.auth.LoginScreen
-import com.pajasoft.vetcare1.ui.auth.RegisterScreen
-import com.pajasoft.vetcare1.ui.citas.CitaFormScreen
-import com.pajasoft.vetcare1.ui.perfil.PerfilScreen
-import com.pajasoft.vetcare1.ui.servicios.HorariosScreen
-import com.pajasoft.vetcare1.ui.sucursales.SucursalDetailScreen
-import com.pajasoft.vetcare1.ui.sucursales.SucursalesScreen
+import com.pajasoft.vetcare.ui.adopcion.AdopcionDetailScreen
+import com.pajasoft.vetcare.ui.adopcion.AdopcionListScreen
+import com.pajasoft.vetcare.ui.auth.LoginScreen
+import com.pajasoft.vetcare.ui.auth.RegisterScreen
+import com.pajasoft.vetcare.ui.citas.CitaFormScreen
+import com.pajasoft.vetcare.ui.perfil.PerfilScreen
+import com.pajasoft.vetcare.ui.servicios.HorariosScreen
+import com.pajasoft.vetcare.ui.sucursales.SucursalDetailScreen
+import com.pajasoft.vetcare.ui.sucursales.SucursalesScreen
 
 @Composable
 fun VetNavGraph(startLoggedIn: Boolean) {
