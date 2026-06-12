@@ -3,8 +3,8 @@ package com.pajasoft.vetcare
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.pajasoft.vetcare.Data.repository.VetRepository
-import com.pajasoft.vetcare1.ui.auth.AuthViewModel
-import com.pajasoft.vetcare1.ui.sucursales.SucursalesViewModel
+import com.pajasoft.vetcare.ui.auth.AuthViewModel
+import com.pajasoft.vetcare.ui.sucursales.SucursalesViewModel
 import kotlin.jvm.java
 
 class VetViewModelFactory(

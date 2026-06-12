@@ -35,7 +35,6 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import com.pajasoft.vetcare.VetViewModelFactory
-import com.pajasoft.vetcare.VetViewModelFactory
 import com.pajasoft.vetcare.ui.components.ErrorBox
 import com.pajasoft.vetcare.ui.components.LoadingBox
 import com.pajasoft.vetcare.ui.components.PrimaryButton
