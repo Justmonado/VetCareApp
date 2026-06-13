@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.pajasoft.vetcare.Data.models.Servicio
 import com.pajasoft.vetcare.Data.models.Sucursal
+import com.pajasoft.vetcare.Data.repository.Resource
 import com.pajasoft.vetcare.Data.repository.VetRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

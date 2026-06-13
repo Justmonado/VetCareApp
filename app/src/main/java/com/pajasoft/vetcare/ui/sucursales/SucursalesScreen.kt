@@ -154,12 +154,16 @@ private fun MetaRow(icon: androidx.compose.ui.graphics.vector.ImageVector, text:
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun FlowChips(servicios: List<String>) {
-    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    Column(
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
         servicios.forEach { s ->
-            AssistChip(onClick = {}, label = { Text(s) })
+            AssistChip(
+                onClick = {},
+                label = { Text(s) }
+            )
         }
     }
 }
